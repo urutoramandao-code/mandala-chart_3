@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>単価アップ マンダラチャート(面談用)</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0C447C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="マンダラ">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+
+<style>
+:root{--bg:#fff;--fg:#1f1f1d;--mut:#6b6a66;--bd:#d9d7cf;--card:#f6f5f0;--ab:#E6F1FB;--af:#0C447C;--as:#185FA5;--ob:#EAF3DE;--of:#27500A;--os:#3B6D11;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1c1a;--fg:#ece9df;--mut:#a3a199;--bd:#444441;--card:#2c2c2a;--ab:#0C447C;--af:#B5D4F4;--as:#85B7EB;--ob:#27500A;--of:#C0DD97;--os:#97C459}}
+:root[data-theme="dark"]{--bg:#1c1c1a;--fg:#ece9df;--mut:#a3a199;--bd:#444441;--card:#2c2c2a;--ab:#0C447C;--af:#B5D4F4;--as:#85B7EB;--ob:#27500A;--of:#C0DD97;--os:#97C459}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.6 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:18px;font-weight:500;margin:0 0 12px}
+button,input,textarea,select{font:inherit;color:var(--fg);background:var(--bg);border:.5px solid var(--bd);border-radius:8px;padding:6px 12px}
+button{cursor:pointer}button.on{background:var(--card);border-color:var(--mut);font-weight:500}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px;align-items:center}
+#g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.b{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px}
+.c{min-height:58px;padding:3px;font-size:11px;line-height:1.35;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:4px;overflow-wrap:anywhere;border:.5px solid var(--bd);background:var(--bg)}
+.s{cursor:pointer}.a{background:var(--ab);border-color:var(--as);color:var(--af)}.d{background:var(--ob);border-color:var(--os);color:var(--of)}
+.k0{--b:#7F77DD;--t:#EEEDFE;--s:#534AB7;--f:#3C3489}.k1{--b:#1D9E75;--t:#E1F5EE;--s:#0F6E56;--f:#085041}.k2{--b:#D85A30;--t:#FAECE7;--s:#993C1D;--f:#712B13}.k3{--b:#D4537E;--t:#FBEAF0;--s:#993556;--f:#72243E}.k4{--b:#378ADD;--t:#E6F1FB;--s:#185FA5;--f:#0C447C}.k5{--b:#639922;--t:#EAF3DE;--s:#3B6D11;--f:#27500A}.k6{--b:#BA7517;--t:#FAEEDA;--s:#854F0B;--f:#633806}.k7{--b:#E24B4A;--t:#FCEBEB;--s:#A32D2D;--f:#791F1F}.c[class*=" k"]{background:var(--t);border-color:var(--b);color:var(--f)}.c.a[class*=" k"]{background:var(--s);border-color:var(--s);color:#fff}.c.s.d[class*=" k"]{background:var(--b);border-color:var(--b);color:#111}.t0{background:#5F5E5A;border-color:#5F5E5A;color:#fff}.t1{background:#CD7F32;border-color:#CD7F32;color:#2b1700}.t2{background:#C0C0C0;border-color:#C0C0C0;color:#1c1c1a}.t3{background:#FFD700;border-color:#FFD700;color:#2b1700}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .k0{--t:#3C3489;--f:#CECBF6}:root:not([data-theme="light"]) .k1{--t:#085041;--f:#9FE1CB}:root:not([data-theme="light"]) .k2{--t:#712B13;--f:#F5C4B3}:root:not([data-theme="light"]) .k3{--t:#72243E;--f:#F4C0D1}:root:not([data-theme="light"]) .k4{--t:#0C447C;--f:#B5D4F4}:root:not([data-theme="light"]) .k5{--t:#27500A;--f:#C0DD97}:root:not([data-theme="light"]) .k6{--t:#633806;--f:#FAC775}:root:not([data-theme="light"]) .k7{--t:#791F1F;--f:#F7C1C1}}
+:root[data-theme="dark"] .k0{--t:#3C3489;--f:#CECBF6}:root[data-theme="dark"] .k1{--t:#085041;--f:#9FE1CB}:root[data-theme="dark"] .k2{--t:#712B13;--f:#F5C4B3}:root[data-theme="dark"] .k3{--t:#72243E;--f:#F4C0D1}:root[data-theme="dark"] .k4{--t:#0C447C;--f:#B5D4F4}:root[data-theme="dark"] .k5{--t:#27500A;--f:#C0DD97}:root[data-theme="dark"] .k6{--t:#633806;--f:#FAC775}:root[data-theme="dark"] .k7{--t:#791F1F;--f:#F7C1C1}
+textarea{width:100%;min-height:80px;box-sizing:border-box}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:.5px solid var(--bd);padding:6px;text-align:left}
+.m{color:var(--mut);font-size:13px}
+#addm{flex-wrap:nowrap}
+.ph #dlg>div,.ph #tip>div{transform:scale(1.6)}
+@media(max-width:640px){#addm{flex-wrap:wrap}#addm input,#addm select{flex:1 1 100%!important}#addm button{flex:1 1 100%!important}input,select,textarea{font-size:16px}button{min-height:40px}main{padding:12px}}
+</style></head><body><main>
+<h1>単価アップ マンダラチャート(面談用)</h1>
+<div id="msg" class="m"></div>
+<div class="row" id="mem"></div>
+<div class="row" id="addm"><input id="nm" placeholder="メンバー名" style="flex:1;min-width:0"><select id="ly" style="flex:1;min-width:0"></select><select id="tp" style="flex:1;min-width:0"></select><button id="add" style="flex:none">メンバーを追加</button></div>
+<div class="row" id="tabs"></div>
+<div class="row m" id="addrow">この人にシートを追加 <select id="ly2"></select><button id="addl">追加</button></div>
+
+<div class="m" id="st" style="margin:0 0 6px"></div>
+<div id="g"></div>
+<p class="m" style="margin:6px 0 0">マスを押すと達成条件が表示されます。「達成にする」で達成、「戻る」で閉じます。</p>
+<p class="m" id="tot"></p>
+<div class="row" style="margin-top:8px"><button id="del">このメンバーを削除</button></div>
+<h2 style="font-size:15px;font-weight:500;margin:20px 0 6px">全員の進捗</h2>
+<div style="overflow-x:auto"><table id="ov"></table></div>
+</main>
+<div id="tip" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);align-items:center;justify-content:center;z-index:20"><div style="background:var(--bg);color:var(--fg);border:.5px solid var(--bd);border-radius:12px;padding:16px 20px;max-width:420px;width:calc(100% - 48px)"><div id="tt" style="font-weight:500;margin:0 0 8px"></div><div id="tcr" style="white-space:pre-wrap;margin:0 0 10px;padding:8px 10px;border-radius:8px;background:var(--card)"></div><div id="tb" style="white-space:pre-wrap;margin:0 0 14px"></div><div class="row" style="justify-content:flex-end;margin:0"><button id="ta" class="on">達成にする</button><button id="tc">戻る</button></div></div></div>
+<div id="dlg" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);align-items:center;justify-content:center;z-index:20"><div role="alertdialog" style="background:var(--bg);color:var(--fg);border:.5px solid var(--bd);border-radius:12px;padding:16px 20px;max-width:320px;width:calc(100% - 48px)"><p id="dm" style="margin:0 0 14px"></p><div class="row" style="justify-content:flex-end;margin:0"><button id="dn">キャンセル</button><button id="dy" class="on">取り消す</button></div></div></div>
+<script>
+/* スタンドアロン用の保存機能: Claude上で開かれていない場合だけ、ブラウザ内(localStorage)にデータを保存します */
+(function(){
+if(window.claude)return;
+var P="mandala:",DEFAULT_CRIT="# PG\n## 開発工程の理解\n要件定義の流れ|要件定義の入力と成果物を3つ以上挙げ、自案件の要件定義書を使って5分で説明できる(リーダーが聞いて判定)\n基本設計とは|基本設計書の画面・機能・外部IFが何を決めているかを、自案件の設計書を指して説明できる\n詳細設計書を読む|担当機能の処理フローを詳細設計書から書き起こし、リーダーの確認で誤りが0件\n製造・単体テスト|詳細設計どおりに実装し、単体テストを全件実施して未消化0件、設計との相違の指摘0件\n結合・総合テスト|結合テストと総合テストの目的・対象範囲の違いを説明でき、自案件のテスト仕様書の該当箇所を示せる\nリリース手順|リリース手順書に沿った作業を、先輩の立ち会いで1回以上実施し、手戻りなく完了できる\n保守・障害対応|障害票1件の原因をログから特定し、事象・原因・対処の3項目を書いた一次切り分け報告を出せる\nウォーターフォールとアジャイル|両者の特徴と違いを各3点挙げ、自案件がどちらで、なぜそうなっているかを説明できる\n## 言語・FWの習得\n文法の基礎|変数・条件分岐・繰り返し・配列を使った課題(100件の集計処理など)を、資料なしで30分以内に実装できる\nオブジェクト指向|継承・ポリモーフィズム・カプセル化を、自作のコード例を示して各1分で説明できる\n標準ライブラリ|文字列・日付・コレクションの主要メソッドを、調べずに使い、課題3問が全問動作する\nFW(Spring等)|FWで一覧取得APIまたは画面を1つ作り、起動して動作確認できる\n例外処理|入力不正・DB接続失敗・該当なしの3パターンを、try-catchと独自例外で処理し、動作確認できる\nログ出力|ログレベルの使い分けを説明でき、障害調査に必要な情報(入力値・処理ID)が出る実装を1機能で書ける\nコーディング規約|案件の規約に沿って書いたコードが、静的解析またはレビューで規約違反0件\nコードリーディング|既存コードの担当範囲の処理フロー図を自力で書き、先輩の確認で重大な誤りが0件\n## テスト力\n単体テスト仕様書|担当機能の単体テスト仕様書を作成し、レビューで観点漏れの重大指摘が0件\n境界値・同値分割|入力項目3つ以上について、境界値と同値分割でテストケースを導出し、根拠を説明できる\nテストデータ作成|正常系・異常系を網羅するテストデータを自力で用意し、再実行しても結果が再現する\nエビデンス取得|全テストケースの結果を画面・ログなどの証跡つきで提出し、レビューで再取得の指示が0件\nJUnit等|JUnit等で担当クラスの単体テストを書き、全件成功し、主要分岐のカバレッジが80%以上\n不具合票|不具合票を、再現手順・期待結果・実際の結果・原因の4項目を埋めて書き、差し戻しが0件\nデバッグ手法|ブレークポイントまたはログで不具合1件の原因行を特定し、修正前後の挙動を説明できる\n再現手順の整理|報告した不具合の再現手順を、他の人が手順どおりに実行して再現できる(1件以上で確認)\n## 資格取得\n基本情報技術者|基本情報技術者試験に合格(合格証書または成績通知を提示)\nAWS CLF|AWS認定クラウドプラクティショナーに合格(認定番号を提示)\nOracle Silver|Oracle Master Silver SQL(または同等)に合格(認定番号を提示)\nLPIC-1|LPIC Level 1に合格(認定番号を提示)\nJava Silver|Oracle認定Java SE Silverに合格(認定番号を提示)\n過去問演習|目標資格の過去問を直近3年分解き、最新回の模擬点が合格基準以上\n学習時間の確保|週5時間以上の学習を4週間連続で実施し、学習記録で確認できる\n応用情報に着手|応用情報技術者試験の受験申込を済ませ、午前の過去問1回分で60%以上取れている\n## AI活用\nCopilot導入|社内ルールの範囲でAIコーディング支援を自分の環境に導入し、実際に使った記録が1件以上ある\nプロンプトの型|「目的・前提・制約・出力形式」を含む型を自作し、同じ課題で、型なしより修正回数が減ることを示せる\nコード生成|AIで生成した関数を1つ以上、自分でテストして動作確認し、本番コードに採用できる品質にできる\nエラー調査|エラーログをAIに渡して原因候補を出し、再現確認して正解を特定した事例が1件以上\nテストコード生成|AIでテストコードを生成し、人が追加・修正して全件成功し、レビュー指摘が0件\nドキュメント要約|設計書・仕様書をAIで要約し、原本と照合して誤りを直した版を作れる\n出力レビューの習慣|AI出力は実行確認と仕様照合をしてから使う手順を自分で書き、直近1か月の使用で確認漏れが0件\n社内ルール確認|AI利用に関する社内・顧客のルールを読み、入力してよい情報とだめな情報を各3つ挙げられる\n## Git・開発環境\ncommit|変更を意味のある単位に分けて規約どおりのメッセージでcommitし、レビュー指摘が0件\nbranch運用|案件のブランチ運用ルールに沿って、作業ブランチの作成からマージまでを1回完了できる\nPR作成|変更内容・確認方法・影響範囲を書いたPRを1件作成し、差し戻しなしでマージされる\nコンフリクト解消|意図的に作ったコンフリクトを解消し、両方の変更意図を残してビルドが通る\nIDE設定|案件指定のフォーマッタ・静的解析をIDEに設定し、保存時に自動整形されることを確認できる\nDocker基礎|既存のDockerfileからコンテナをビルド・起動・停止でき、ポートとボリュームの意味を説明できる\nCI・CD基礎|CIでビルド・テストが走る流れを図に書いて説明でき、失敗したジョブのログから原因を1件特定できる\nLinuxコマンド|ls・grep・tail・find・ps・chmodを使った課題3問に全問正解する(ログから特定文字列の行を抽出できる)\n## SQL・DB基礎\nSELECT|WHERE・ORDER BY・LIMITを使った抽出課題5問に、資料なしで全問正解する\nJOIN|INNER・LEFT JOINで3テーブルを結合する課題3問に全問正解し、結果件数の理由を説明できる\n集計・GROUP BY|GROUP BY・HAVING・集計関数の課題5問に全問正解する\nUPDATE・DELETE|テスト環境で、事前のSELECTで対象件数を確認してから、WHERE条件つきで更新・削除する手順を守れる\nインデックス|インデックスの役割と、効かない書き方(列への関数適用・前方不一致のLIKE)を各1つ説明できる\nトランザクション|COMMIT・ROLLBACK・分離レベルの違いを、具体例つきで説明できる\n正規化|サンプルの表を、第1〜第3正規形に正規化して示せる\n実行計画|EXPLAINで1クエリの実行計画を取得し、フルスキャンの箇所を指摘できる\n## 報連相・自走力\n日報・週報|日報を直近20営業日連続で、当日中に提出している\n進捗報告|担当タスクの進捗を、完了・残り・懸念の3点で定めた頻度で報告し、直近1か月の報告漏れが0件\n質問の仕方|試したこと・仮説・聞きたいことを添えて質問し、情報不足による差し戻しが直近5回で0回\n期限の厳守|直近1か月の担当タスクで期限超過が0件(遅れそうなときは前日までに報告)\n議事録作成|会議後24時間以内に、決定事項・宿題・担当・期限を書いた議事録を出し、参加者の修正指摘が0件\nビジネスマナー|メール・チャットの言葉遣いと返信期限(当日中)について、直近1か月で指摘が0件\n15分で自己解決|詰まったら15分調べ、解決しなければ相談する運用を、調べた内容のメモ(1か月分)で確認できる\n見積の自己申告|担当タスクの工数を着手前に申告し、実績との差が±30%以内のものが直近5件中4件以上\n\n# SE\n## 要件定義・基本設計\nヒアリング|ヒアリング項目リストを事前に作り、1回のヒアリングで確認事項の90%以上を聞き取れる(議事録で確認)\n要件一覧作成|要件ID・内容・優先度・根拠・確認者を付けた要件一覧を作り、顧客レビューで抜け・重複の指摘が3件以下\n業務フロー図|対象業務のフロー図を作り、顧客または現場担当者の確認で重大な誤りが0件\n画面設計|画面一覧・遷移図・項目定義を作り、レビューで操作上の矛盾の指摘が0件\n外部IF設計|連携先ごとに項目・形式・タイミング・エラー時の扱いを定義したIF設計書を作り、相手先と合意できる\n優先順位付け|要件に優先度(MoSCoW等)を付け、根拠を説明して顧客と合意できる\n要件レビュー|要件定義書のレビューを主催し、指摘を全件記録して、合意版を期限内に確定できる\n変更管理|変更要求の影響範囲・工数・期限を整理して顧客に提示し、承認を得て反映した実績が1件以上\n## 設計書の作成・レビュー\n詳細設計書作成|担当機能の詳細設計書を作成し、実装者が質問なしで着手できる(質問0件で確認)\nUML・ER図|シーケンス図・クラス図・ER図のうち2種類を作成し、実装内容と一致している\nレビュー観点|設計書レビューのチェックリストを自作し、他者の設計書で重大な指摘を2件以上出せる\n指摘対応|指摘を全件、対応方針と結果を記録して期限内に対応し、再指摘が0件\n設計標準|案件の設計標準(書式・命名・粒度)に沿って作成し、標準違反の指摘が0件\nトレーサビリティ|要件・設計・テストの対応表を作成し、未対応の要件が0件\n用語の統一|用語集を作成し、設計書内の表記ゆれが0件(レビューで確認)\nレビュー主導|設計レビューの事前配布・指摘集約・議事録・完了報告までを、1回通して主催して実施できる\n## DB・アーキ設計\nER設計|業務要件から第3正規形のER図を作成し、レビューで正規化の指摘が0件\nテーブル定義|型・桁・制約・キー・NULL可否を全項目定義したテーブル定義書を作成し、実装時の修正が0件\nAPI設計|エンドポイント・リクエスト・レスポンス・エラーコードを定義したAPI仕様書を作成し、利用側との認識齟齬が0件\nインデックス設計|主要クエリ3本について、インデックス案と実行計画に基づく根拠を示せる\nアーキ図作成|コンポーネント・通信・データの流れを描いた構成図を作り、第三者が5分で全体を説明できる\n技術比較|技術の選択肢2〜3案を、性能・コスト・保守性・習熟度の観点で比較表にし、推奨理由を示せる\n設計パターン|代表的な設計パターン3つについて、使いどころと自案件への適用例を説明できる\nマイクロサービス基礎|モノリスとの違いと、分割の利点・欠点を各3点説明でき、自案件への適否を判断できる\n## 資格取得\n応用情報技術者|応用情報技術者試験に合格(合格証書を提示)\nAWS SAA|AWS認定ソリューションアーキテクト アソシエイトに合格(認定番号を提示)\nデータベース|データベーススペシャリスト試験(または同等のDB資格)に合格\nAzure|Azure Fundamentals(AZ-900)以上に合格(認定番号を提示)\nネットワーク|ネットワークスペシャリスト試験またはCCNAに合格\n高度試験に着手|高度試験の受験申込を済ませ、午前Ⅱの過去問で60%以上取れている\nセキュリティマネ|情報セキュリティマネジメント試験または情報処理安全確保支援士試験に合格\n学習計画|半年分の資格学習計画(目標・日程・週あたり時間)を作成し、直近3か月の計画に対する実施率が80%以上\n## AI活用の設計\nAIレビュー|AIに設計書・コードをレビューさせ、指摘の採否を判断した記録が10件以上あり、採用した指摘で品質改善が確認できる\n設計書のAI下書き|AIで作った設計書の下書きを人が検証・修正し、レビュー指摘数が通常以下で提出できた実績が1件以上\nテスト自動生成|AIでテストケース案を作り、境界値・異常系の漏れが人のレビューで見つからない(漏れ0件)\nプロンプト整備|案件用のプロンプト集(用途・入力・出力例)を5本以上作り、チームの他の人が使って期待どおりの結果が出る\n品質担保の仕組み|AI出力の検証手順(実行確認・仕様照合・レビュー)を文書化し、運用中のAI利用成果物の品質事故が0件\n情報漏洩対策|入力してはいけない情報の基準を作成してチームに周知し、違反が0件\nチーム共有|AI活用の成功例・失敗例を月1回以上共有し、他メンバーの利用者が増えたことを確認できる\n効果の数値化|AI活用の前後で工数やレビュー指摘数を比較し、数値で効果を報告できる\n## 顧客折衝\n傾聴・質問|打合せで顧客の発言を要約して復唱し、認識違いが議事録の確認で0件\n課題の深掘り|要望の背景を「なぜ」で3段階以上掘り下げ、真の課題を1文にまとめて顧客に確認できる\n議事録と合意|議事録を当日中に共有し、顧客から訂正指示なしで承認される(直近3回)\n資料作成|顧客向けの説明資料を作り、顧客からの再作成の指示が0件\n要望の調整|相反する要望2つ以上について、影響を整理して優先順位案を示し、顧客の合意を得た実績が1件以上\n工数の説明|見積工数の根拠(前提・内訳・リスク)を顧客に説明し、再説明を求められずに承認される\n断り方・代替案|対応できない要望に、理由と代替案2案以上を示し、顧客の了承を得た実績が1件以上\n信頼関係の構築|顧客からの指名や次の相談が、直近3か月で1件以上ある(顧客のメール・発言で確認)\n## 非機能要件\n性能設計|主要処理の目標応答時間と同時接続数を数値で定義し、根拠を説明できる\n負荷テスト|負荷テスト計画を作成して実施し、目標値の達成・未達と対策をレポートにまとめられる\nセキュリティ設計|OWASP Top10のうち5項目以上について自案件の対策を設計書に記載し、脆弱性診断で重大指摘が0件\n可用性・冗長化|可用性目標(稼働率)を定め、単一障害点を洗い出して、冗長化の方針を提案できる\n監視・運用設計|監視項目・閾値・通知先・一次対応手順を設計書にまとめ、運用担当のレビューで承認される\nバックアップ|RPO・RTOを定義し、バックアップ方式と復旧手順を作成し、復旧テストを1回実施して目標内で復旧できる\n移行設計|移行手順・リハーサル計画・切り戻し基準を作成し、リハーサルでの手順書の修正が3件以下\n障害対応設計|障害時の連絡体制・初動手順・影響範囲の判断基準をまとめ、訓練を1回実施して手順の不備を洗い出せる\n## 後輩指導\nコードレビュー|後輩のコードを直近5件レビューし、指摘の理由と改善案を添え、再レビューで同じ指摘が0件\n質問に答える|答えだけでなく考え方を示して回答し、直近1か月で後輩の同種の再質問が0件\nタスク分解|後輩向けの作業を、1タスク半日〜2日の粒度に分け、完了条件を書いて渡し、手戻りが0件\n育成計画|後輩ごとに3か月の目標と週次の確認項目を書いた育成計画を作り、月1回振り返る\nフィードバック|良い点と改善点を具体的な事実で月1回以上伝え、後輩への簡易アンケート(5段階)で分かりやすさが4以上\nナレッジ共有|手順書やFAQを作成して共有し、関連する質問件数が減ったことを確認できる\n勉強会開催|技術共有の勉強会を1回以上主催し、参加者アンケートの満足度が5段階で4以上\n任せて見守る|後輩に1つの作業を任せ、途中の介入を3回以内に抑えて、期限内に完了させる\n\n# PL\n## 計画・見積・WBS\nWBS作成|案件のWBSを、作業単位(1〜3日)まで分解して作成し、抜け漏れの指摘が3件以下\n工数見積|類似実績や3点見積などで工数を見積り、実績との差が±20%以内\nスケジュール|依存関係を整理したスケジュールを作り、クリティカルパスを示せる\n要員計画|必要スキル・人数・時期を整理した要員計画を作成し、不足を満たす手配案を提示できる\nマイルストーン|主要なマイルストーンと判定基準を設定し、各達成判定を事実で説明できる\n前提条件の整理|見積・計画の前提条件を10項目以内で明文化し、顧客の合意を得られる\n見積根拠の説明|見積の内訳と根拠を顧客に説明し、再見積の依頼が0回で承認される\n再計画|遅延や変更が起きたとき、影響を整理した再計画を作り、3営業日以内に関係者の合意を得た実績が1件以上\n## 進捗・課題・リスク管理\n進捗会議運営|定例会議を、アジェンダ事前共有・時間内終了・議事録配布まで、直近4回すべて実施している\n課題管理表|課題の担当・期限・状況を管理し、期限超過の課題が全体の10%以下\nリスク洗い出し|プロジェクト開始時にリスクを10件以上洗い出し、対策と発生時の対応を記載し、定期的に見直している\n遅延の予兆検知|進捗率と消化工数の乖離が10%を超えたタスクを週次で抽出し、遅延の発生前に対策を打った実績が1件以上\nEVM基礎|PV・EV・ACからSPI・CPIを計算し、数値の意味を説明できる\nエスカレーション|エスカレーション基準(影響度・期限)を定め、基準を超えた事象を当日中に報告した実績が1件以上\n変更管理|変更要求を影響評価・承認・反映の手順で処理し、承認なしの変更が0件\n障害対応の指揮|障害発生時に役割分担・情報共有・復旧判断を指揮し、復旧後の報告書を期限内に提出した実績が1件以上\n## 品質管理・テスト戦略\n品質基準策定|品質基準(バグ密度・テスト消化率・重要度別の許容件数)を数値で定義し、顧客と合意できる\nテスト計画|テスト範囲・観点・環境・体制・スケジュールを書いたテスト計画書を作成し、レビューで重大指摘が0件\nレビュー計画|成果物ごとのレビュー方法・担当・時期を計画し、計画どおりに実施した率が90%以上\nバグ分析|バグを原因・工程・機能で集計し、傾向と対策案を報告できる\n品質指標管理|バグ密度・消化率・収束状況を週次で報告し、基準を外れたときに対策を提示できる\n受入基準|受入テストの合格基準を顧客と事前に合意し、書面に残している\nリリース判定|判定基準に基づいてリリース可否を判断し、根拠資料つきで顧客に提示して承認を得られる\n再発防止策|重大障害1件について、真因・再発防止策・効果確認の方法を書いたレポートを作成し、同じ障害の再発が0件\n## チーム育成\n1on1|メンバー全員と月1回以上30分の1on1を、直近3か月連続で実施し、記録を残している\n役割分担|各メンバーの強みと成長目標を考慮した分担表を作成し、メンバーの合意を得ている\n権限委譲|メンバーに判断を任せる範囲を明確にし、任せた業務へのリーダーの介入が月3回以内\n評価・フィードバック|評価基準を事前に共有し、評価面談で根拠つきのフィードバックを全員に行っている\nオンボーディング|新メンバー向けに初日〜1か月の計画を作成し、計画どおりに立上がりが完了している\nモチベーション管理|メンバーの状態(負荷・不安・意欲)を月1回の確認項目で把握し、懸念への対応を記録している\n採用面談|面談の評価観点を定めて1回以上担当し、観点別の評価を記録して、採否の根拠を説明できる\n心理的安全性|チームサーベイで発言しやすさの評価が5段階で4以上、または前回より改善している\n## 提案・上流の合意形成\n課題ヒアリング|顧客の経営・現場の課題をヒアリングシートに整理し、顧客の確認で認識違いが0件\n提案書作成|課題・解決策・体制・費用・スケジュールを含む提案書を作成し、社内レビューで承認される\nROI説明|導入効果と費用を数値で比較したROIを算出し、前提条件つきで顧客に説明できる\n経営層への報告|プロジェクト状況を1枚のサマリーで経営層に報告し、追加資料の依頼が2件以下\n関係者整理|ステークホルダー(影響度・関心)を一覧化し、合意形成のための接点計画を作成できる\n追加案件の獲得|既存顧客から追加または拡張の案件を受注した実績が1件以上\n契約・SOW理解|準委任と請負の違い、SOWの範囲と責任分界を説明でき、自案件のSOWで範囲の疑義を指摘できる\n交渉力|価格・範囲・期限のいずれかの交渉で、自社の許容範囲内で合意に至った実績が1件以上\n## コスト・予算管理\n原価把握|案件の原価(人件費・外注費・経費)を月次で集計し、報告できる\n予算作成|案件の予算を工程別・費目別に作成し、上長の承認を得ている\n稼働率管理|メンバーの稼働率を月次で把握し、目標稼働率との乖離が10%以内\n採算管理|案件の粗利率を月次で報告し、計画との差の要因を説明できる\n外注管理|外注先の見積・進捗・成果物の検収を管理し、検収の差戻しが2回以下\n追加費用の判断|追加費用が発生する変更について、費用・効果・代替案を整理して判断し、承認を得た実績が1件以上\n請求・検収|請求・検収の手順を理解し、案件の検収を期日どおりに完了した実績が1件以上\nPM試験|プロジェクトマネージャ試験(またはPMP)に合格、または受験申込を済ませ午前Ⅱの過去問で60%以上取れている\n## AI導入によるチーム改善\n利用ルール策定|AIの利用範囲・禁止事項・確認手順を書いたルールを策定してチーム全員に周知し、違反が0件\n生産性測定|AI導入の前後で工数・レビュー指摘数・リードタイムを測定し、改善率を数値で報告できる\nツール選定|AIツール2〜3案を機能・セキュリティ・費用の比較表で評価し、推奨と根拠を提示できる\n研修実施|AI活用の研修を実施し、受講後1か月で実際に使ったメンバーの割合が70%以上\nセキュリティ方針|機密情報の取扱い、ログの保存、顧客の許可の基準を文書化し、顧客のセキュリティ確認で承認される\n成功事例の展開|成功事例を手順つきで文書化し、他案件・他メンバーが再現して効果を得た実績が1件以上\n業務自動化|定型業務を1つ以上AI・スクリプトで自動化し、月10時間以上の工数削減を確認できる\nAI前提の見積|AI活用を前提とした見積を作成し、実績との差が±20%以内\n## 技術選定・全体設計\n構成方針|システム全体の構成方針を図と文章で1〜2頁にまとめ、技術リーダーと顧客の合意を得ている\n技術比較評価|技術の選択肢を重みつきの評価基準で比較し、決定理由を残した判断記録を作成できる\nPoC実施|PoCの目的・成功基準・期間を事前に定めて実施し、基準の達成・未達と次の判断を報告できる\n技術的負債管理|技術的負債を一覧化して影響度と優先順位をつけ、四半期ごとに見直して返済計画を実行している\n非機能の最終判断|性能・コスト・保守性のトレードオフについて、根拠つきで最終判断を下し、関係者の合意を得ている\n標準化|コーディング規約・設計標準・テンプレートを整備し、チームの適用率が90%以上\nベンダー評価|品質・納期・コスト・体制の評価項目でベンダーを評価し、次の発注判断に使った実績が1件以上\n将来拡張|3年後の拡張シナリオ(機能・負荷・データ量)を想定し、設計への影響と対応策を示せる";
+function load(n){try{return JSON.parse(localStorage.getItem(P+n)||"{}")}catch(e){return{}}}
+function save(n,o){localStorage.setItem(P+n,JSON.stringify(o))}
+var subs={};
+function snap(n){var o=load(n);return{docs:Object.keys(o).map(function(id){var d=JSON.parse(JSON.stringify(o[id]));return Object.freeze({id:id,data:function(){return JSON.parse(JSON.stringify(d))}})})}}
+function fire(n){(subs[n]||[]).forEach(function(f){f(snap(n))})}
+function coll(n){return{
+doc:function(id){return{
+get:async function(){var o=load(n);return{exists:id in o,id:id,data:function(){return o[id]}}},
+set:async function(d){var o=load(n);o[id]=JSON.parse(JSON.stringify(d));save(n,o);fire(n)},
+"delete":async function(){var o=load(n);delete o[id];save(n,o);fire(n)}}},
+onSnapshot:function(f){(subs[n]=subs[n]||[]).push(f);setTimeout(function(){f(snap(n))},0)}}}
+window.claude={use:async function(name){
+if(name=="db")return{collection:coll};
+if(name=="downloads")return{save:async function(r){var b=r.data instanceof Blob?r.data:new Blob([r.data]);var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=r.filename;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},0)}};
+return null}};
+if(!localStorage.getItem(P+"config"))save("config",{criteria:{text:DEFAULT_CRIT}});
+window.addEventListener("storage",function(e){if(e.key&&e.key.indexOf(P)==0)fire(e.key.slice(P.length))});
+var m=document.querySelector("main"),box=document.createElement("details");box.style.margin="20px 0 0";
+box.innerHTML='<summary style="cursor:pointer">データのバックアップ(このブラウザ内のデータ)</summary><p class="m">メンバーのチェックやチャート内容は、このブラウザの中にだけ保存されています。ブラウザのデータを消すと失われるため、定期的にJSONで保存してください。別のPCに移すときも、保存したJSONを読み込みます。</p><div class="row"><button id="bkx">JSONで保存</button><input type="file" id="bki" accept=".json"></div><div class="m" id="bkm"></div>';
+m.appendChild(box);
+document.getElementById("bkx").onclick=function(){var b=new Blob([JSON.stringify({members:load("members"),config:load("config")},null,1)],{type:"application/json"});var a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="mandala_backup.json";document.body.appendChild(a);a.click();a.remove()};
+document.getElementById("bki").onchange=function(){var f=this.files[0];if(!f)return;var r=new FileReader();r.onload=function(){try{var o=JSON.parse(r.result);if(!o.members||!o.config)throw 0;if(!confirm("このブラウザのデータを、読み込んだ内容で置き換えます。よろしいですか?"))return;save("members",o.members);save("config",o.config);location.reload()}catch(e){document.getElementById("bkm").textContent="読み込めません。保存したJSONを選んでください。"}};r.readAsText(f)}
+if("serviceWorker" in navigator&&/^https?:/.test(location.protocol))navigator.serviceWorker.register("sw.js").catch(function(){});
+})();
+</script>
+<script>
+(function(){var v=document.querySelector('meta[name=viewport]');if(v&&Math.min(screen.width,screen.height)<720){v.setAttribute("content","width=680, viewport-fit=cover");document.documentElement.className="ph"}})();
+var D=[
+{tab:"Layer 1 PG(〜60万)",role:"PG",price:"〜60万",items:[
+"開発工程の理解|要件定義の流れ/基本設計とは/詳細設計書を読む/製造・単体テスト/結合・総合テスト/リリース手順/保守・障害対応/ウォーターフォールとアジャイル",
+"言語・FWの習得|文法の基礎/オブジェクト指向/標準ライブラリ/FW(Spring等)/例外処理/ログ出力/コーディング規約/コードリーディング",
+"テスト力|単体テスト仕様書/境界値・同値分割/テストデータ作成/エビデンス取得/JUnit等/不具合票/デバッグ手法/再現手順の整理",
+"資格取得|基本情報技術者/AWS CLF/Oracle Silver/LPIC-1/Java Silver/過去問演習/学習時間の確保/応用情報に着手",
+"AI活用|Copilot導入/プロンプトの型/コード生成/エラー調査/テストコード生成/ドキュメント要約/出力レビューの習慣/社内ルール確認",
+"Git・開発環境|commit/branch運用/PR作成/コンフリクト解消/IDE設定/Docker基礎/CI・CD基礎/Linuxコマンド",
+"SQL・DB基礎|SELECT/JOIN/集計・GROUP BY/UPDATE・DELETE/インデックス/トランザクション/正規化/実行計画",
+"報連相・自走力|日報・週報/進捗報告/質問の仕方/期限の厳守/議事録作成/ビジネスマナー/15分で自己解決/見積の自己申告"]},
+{tab:"Layer 2 SE(〜75万)",role:"SE",price:"〜75万",items:[
+"要件定義・基本設計|ヒアリング/要件一覧作成/業務フロー図/画面設計/外部IF設計/優先順位付け/要件レビュー/変更管理",
+"設計書の作成・レビュー|詳細設計書作成/UML・ER図/レビュー観点/指摘対応/設計標準/トレーサビリティ/用語の統一/レビュー主導",
+"DB・アーキ設計|ER設計/テーブル定義/API設計/インデックス設計/アーキ図作成/技術比較/設計パターン/マイクロサービス基礎",
+"資格取得|応用情報技術者/AWS SAA/データベース/Azure/ネットワーク/高度試験に着手/セキュリティマネ/学習計画",
+"AI活用の設計|AIレビュー/設計書のAI下書き/テスト自動生成/プロンプト整備/品質担保の仕組み/情報漏洩対策/チーム共有/効果の数値化",
+"顧客折衝|傾聴・質問/課題の深掘り/議事録と合意/資料作成/要望の調整/工数の説明/断り方・代替案/信頼関係の構築",
+"非機能要件|性能設計/負荷テスト/セキュリティ設計/可用性・冗長化/監視・運用設計/バックアップ/移行設計/障害対応設計",
+"後輩指導|コードレビュー/質問に答える/タスク分解/育成計画/フィードバック/ナレッジ共有/勉強会開催/任せて見守る"]},
+{tab:"Layer 3 PL(〜90万)",role:"PL",price:"〜90万",items:[
+"計画・見積・WBS|WBS作成/工数見積/スケジュール/要員計画/マイルストーン/前提条件の整理/見積根拠の説明/再計画",
+"進捗・課題・リスク管理|進捗会議運営/課題管理表/リスク洗い出し/遅延の予兆検知/EVM基礎/エスカレーション/変更管理/障害対応の指揮",
+"品質管理・テスト戦略|品質基準策定/テスト計画/レビュー計画/バグ分析/品質指標管理/受入基準/リリース判定/再発防止策",
+"チーム育成|1on1/役割分担/権限委譲/評価・フィードバック/オンボーディング/モチベーション管理/採用面談/心理的安全性",
+"提案・上流の合意形成|課題ヒアリング/提案書作成/ROI説明/経営層への報告/関係者整理/追加案件の獲得/契約・SOW理解/交渉力",
+"コスト・予算管理|原価把握/予算作成/稼働率管理/採算管理/外注管理/追加費用の判断/請求・検収/PM試験",
+"AI導入によるチーム改善|利用ルール策定/生産性測定/ツール選定/研修実施/セキュリティ方針/成功事例の展開/業務自動化/AI前提の見積",
+"技術選定・全体設計|構成方針/技術比較評価/PoC実施/技術的負債管理/非機能の最終判断/標準化/ベンダー評価/将来拡張"]}];
+var DEF=JSON.parse(JSON.stringify(D)),cfg=null,CR={},P=[0,1,2,3,-1,4,5,6,7],col=null,members=[],sel=null,cur=0,armDel=false;
+var $=function(i){return document.getElementById(i)};
+function h(t,c,x,p){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;if(p)p.appendChild(e);return e}
+function me(){return members.filter(function(m){return m.id==sel})[0]}
+var pend={},loc={},ed=false,edk=null;
+function save(m){var id=m.id;loc[id]=m;pend[id]=(pend[id]||0)+1;$("st").textContent="保存中...";
+return col.doc(id).set({name:m.name,checks:m.checks||{},memos:m.memos||{},order:m.order||[],layers:lays(m),custom:m.custom||{},tpl:m.tpl||"",created:m.created||0}).then(function(){$("st").textContent="保存しました"}).catch(function(e){$("st").textContent="保存できませんでした: "+((e&&(e.message||e.code))||"")}).then(function(){pend[id]--})}
+function cnt(m,l,i){var n=0;for(var s=0;s<8;s++)if((m.checks||{})[l+"-"+i+"-"+s])n++;return n}
+function lay(m,l){var n=0;for(var i=0;i<8;i++)n+=cnt(m,l,i);return n}
+function ordr(m,l){var ck=m.checks||{},seen={},o=(m.order||[]).filter(function(k){if(!ck[k]||seen[k])return false;seen[k]=1;return true});var rest=Object.keys(ck).filter(function(k){return!seen[k]}).sort(function(a,b){return String(ck[a]).localeCompare(String(ck[b]))||(a<b?-1:1)});return o.concat(rest).filter(function(k){return l==null||k.indexOf(l+"-")==0})}
+var T={'組み込み':['0-1|言語・RTOSの習得|C言語の基礎/ポインタ・メモリ管理/ビット操作/C++基礎/RTOS基礎/割り込み処理/レジスタ操作/データシート読解','0-2||単体テスト仕様書/実機テスト/境界値・タイミング/ロジアナ・オシロ/テスト環境構築/HWとSWの切り分け/ログ・トレース解析/エビデンス取得','0-3||基本情報技術者/ETEC 3級/ETEC 2級/C言語の資格学習/電子回路の基礎/過去問演習/学習時間の確保/応用情報に着手','0-5|開発環境・ツール|クロスコンパイル/デバッガ(JTAG)/Make・CMake/Git運用/書き込みツール/シリアルログ/静的解析(MISRA)/Linuxコマンド','0-6|回路・通信基礎|回路図の読み方/電源・グランド/GPIO/I2C・SPI/UART/CAN/タイミングチャート/計測器の基礎','1-0||ハードとソフトの分担/要求仕様の分析/リアルタイム制約/状態遷移設計/インタフェース仕様書/優先順位付け/要件レビュー/変更管理','1-2|ソフトウェア構成設計|タスク分割設計/割り込み設計/メモリ配置設計/状態遷移図/ドライバ設計/HAL設計/ミドルウェア選定/設計パターン','1-3||応用情報技術者/ETEC 1級/組込みスペシャリスト/機能安全の基礎/電子回路・計測/ネットワーク基礎/高度試験に着手/学習計画','1-6||リアルタイム性/消費電力/メモリ使用量/信頼性・耐ノイズ/機能安全/セキュアブート/規格認証対応/量産・保守設計','2-2||品質基準策定/実機評価計画/環境・信頼性試験/機能安全の品質活動/バグ分析/再発防止策/量産移行判定/リリース判定','2-7||マイコン・SoC選定/OS選定/部品調達リスク/ハードとソフトの責務分担/PoC・試作/標準化/ベンダー評価/将来拡張'],
+'基幹アプリ':['0-1||Java・C#の基礎/オブジェクト指向/FW(Spring・.NET)/バッチ処理の実装/帳票・ファイル入出力/例外・ログ設計/COBOL基礎/コードリーディング','0-2||単体テスト仕様書/結合テスト観点/業務シナリオ/テストデータ作成/エビデンス取得/不具合票/回帰テスト/再現手順の整理','0-3||基本情報技術者/Java Silver/Oracle Silver/簿記3級/業務システムの基礎/過去問演習/学習時間の確保/応用情報に着手','0-5|開発環境・運用|Git・SVN運用/ビルド・デプロイ/ジョブ管理(JP1等)/IDE設定/Linuxコマンド/環境構築手順書/リリース作業/運用手順の理解','0-6||SELECT・JOIN/集計・サブクエリ/更新系とトランザクション/インデックス/実行計画/ストアドプロシージャ/排他制御/データ移行','1-0||業務ヒアリング/現行業務の整理/機能一覧・画面帳票設計/外部連携設計/データ移行方針/優先順位付け/要件レビュー/変更管理','1-2||ER設計/テーブル定義/バッチ設計/帳票・ファイル連携/トランザクション設計/排他制御/インデックス設計/システム構成図','1-3||応用情報技術者/データベーススペシャリスト/Oracle Gold/簿記2級/業務知識の体系化/システムアーキテクト試験/プロジェクトマネージャ試験/学習計画','1-6||バッチ処理時間/可用性・業務継続/セキュリティ・監査/バックアップ・保全/運用・ジョブ設計/移行・切替計画/法改正・制度対応/障害対応設計','2-2||品質基準策定/結合・総合テスト計画/業務受入テスト支援/移行リハーサル/バグ分析/障害の再発防止/本番判定/リリース判定','2-7||既存システムの調査/刷新方針・段階移行/パッケージかスクラッチか/基盤・DB選定/業務知識の組織化/標準化/ベンダー評価/技術的負債管理'],
+'WEBアプリ':['0-1||JavaScript・TypeScript基礎/HTML・CSS/React等のFW/REST API/非同期処理/認証・認可/バックエンドの基礎/コードリーディング','0-5||commit・branch運用/PR作成/コンフリクト解消/Docker基礎/CI・CD基礎/AWS基礎/ブラウザ開発者ツール/Linuxコマンド','1-6||表示速度・性能/可用性・スケール/Webセキュリティ/ブラウザ互換・レスポンシブ/監視・ログ設計/バックアップ/CDN・キャッシュ/障害対応設計']};
+function tplMap(n,ls){var o={};(T[n]||[]).forEach(function(e){var a=e.split('|'),k=a[0].split('-');if(ls.indexOf(+k[0])<0)return;if(a[1])o[a[0]]=a[1];a[2].split('/').forEach(function(v,s){o[a[0]+'-'+s]=v})});return o}
+function ask(msg,ok,lb){var d=$("dlg");$("dm").textContent=msg;$("dy").textContent=lb||"取り消す";d.style.display="flex";$("dy").onclick=function(){d.style.display="none";ok()};$("dn").onclick=function(){d.style.display="none"};$("dn").focus()}
+function hint(c,main,sub,m,key){var show=function(e){if(e&&e.preventDefault)e.preventDefault();explain(D[cur],main,sub,m&&m.tpl,key,m)},t=null;c.addEventListener("contextmenu",show);c.addEventListener("touchstart",function(){t=setTimeout(function(){t=null;c._lp=1;show()},550)},{passive:true});["touchend","touchmove","touchcancel"].forEach(function(n){c.addEventListener(n,function(e){clearTimeout(t);if(c._lp&&n=="touchend"){e.preventDefault();c._lp=0}},{passive:false})})}
+function explain(L,main,sub,tpl,key0,m){if(!sub)return;var cr=CR[key0],on=m&&(m.checks||{})[key0];$("tt").textContent=main+" / "+sub;$("tcr").textContent=cr?"達成条件\n"+cr:"達成条件: 未設定";$("tb").style.display="none";var ta=$("ta");ta.style.display=m?"":"none";ta.textContent=on?"達成を取り消す":"達成にする";ta.onclick=function(){var t=members.filter(function(x){return x.id==m.id})[0]||m;t.checks=t.checks||{};if(t.checks[key0]){t.order=ordr(t).filter(function(z){return z!=key0});delete t.checks[key0]}else{t.order=ordr(t);t.checks[key0]=today();t.order.push(key0)}$("tip").style.display="none";render();save(t)};$("tip").style.display="flex"}
+$("tc").onclick=function(){$("tip").style.display="none"};$("tip").onclick=function(e){if(e.target==this)this.style.display="none"};
+function parseTxt(t){var L=[],cu=null,er=null;t.split(/\r?\n/).forEach(function(ln,i){ln=ln.trim();if(!ln||er)return;if(ln.charAt(0)=="#"){var a=ln.replace(/^#\s*/,"").split("|");if(a.length!=2||!a[0].trim()||!a[1].trim()){er=(i+1)+"行目: 見出しは「# 役割|単価」の形式にしてください";return}cu={role:a[0].trim(),price:a[1].trim(),items:[]};cu.tab="Layer "+(L.length+1)+" "+cu.role+"("+cu.price+")";L.push(cu);return}
+if(!cu){er=(i+1)+"行目: 先に「# 役割|単価」の見出しが必要です";return}var b=ln.split("|");if(b.length!=2||!b[0].trim()){er=(i+1)+"行目: 「要素名|項目1/項目2/…/項目8」の形式にしてください";return}var n=b[1].split("/").length;if(n!=8){er=(i+1)+"行目: 項目は8つ必要です(現在"+n+"つ)";return}cu.items.push(ln)});
+if(!er){if(L.length!=3)er="見出し(#)は3つ必要です(現在"+L.length+"つ)";else L.forEach(function(l){if(!er&&l.items.length!=8)er=l.role+": 要素は8行必要です(現在"+l.items.length+"行)"})}
+return er?{err:er}:{D:L}}
+function fillLy(){var s=$("ly"),v=s.value;s.textContent="";D.forEach(function(l,i){var o=h("option","",l.tab,s);o.value=i});if(v)s.value=v}
+function parseCr(t){var M={},l=-1,i=-1,s=-1,er=null;t.split(/\r?\n/).forEach(function(ln,n){if(er)return;var r=ln.trim();if(!r)return;var no=(n+1)+"行目: ";
+if(r.charAt(0)=="#"&&r.charAt(1)!="#"){l++;i=-1;s=-1;if(l>2)er=no+"シートの見出し(#)は3つまでです";return}
+if(r.slice(0,2)=="##"){if(l<0){er=no+"先に「# シート名」の見出しが必要です";return}i++;s=-1;if(i>7){er=no+"要素(##)は1シートに8つまでです";return}var v=r.replace(/^##\s*/,"").split("|").slice(1).join("|").trim();if(v)M[l+"-"+i]=v;return}
+if(i<0){er=no+"先に「## 要素名」の見出しが必要です";return}s++;if(s>7){er=no+"項目は1要素に8つまでです";return}var v2=r.split("|").slice(1).join("|").trim();if(v2)M[l+"-"+i+"-"+s]=v2});
+return er?{err:er}:{map:M}}
+var openK=null;
+var listMode=false;function NR(){return listMode}
+try{matchMedia("(max-width:640px)").addEventListener("change",function(){render()})}catch(e){}
+function list(m,it,g){g.style.display="block";var L=D[cur],top=h("div","t"+tier(lay(m,cur)),"",g);top.style.cssText="padding:10px 12px;margin:0 0 8px;border-radius:8px;display:flex;justify-content:space-between;align-items:center";h("span","",L.role+" "+L.price,top).style.fontWeight="500";h("span","",lay(m,cur)+" / 64",top);
+it.forEach(function(x,i){var k=cur+"-"+i,open=openK==k,n=cnt(m,cur,i),box=h("div","k"+i,"",g);box.style.cssText="border:.5px solid var(--bd);border-left:5px solid var(--b);border-radius:8px;margin:0 0 8px;overflow:hidden";
+var hd=h("div","","",box);hd.style.cssText="padding:12px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;background:var(--card)";hd.setAttribute("role","button");hd.tabIndex=0;h("span","",x.t,hd).style.fontWeight="500";h("span","m",n+" / 8 "+(open?"▲":"▼"),hd);
+var tg=function(){openK=open?null:k;render()};hd.onclick=tg;hd.onkeydown=function(e){if(e.key=="Enter"||e.key==" "){e.preventDefault();tg()}};
+if(open)x.s.forEach(function(sub,s){var key=k+"-"+s,on=(m.checks||{})[key],r=h("div","","",box);r.style.cssText="padding:12px;display:flex;align-items:center;gap:10px;border-top:.5px solid var(--bd);cursor:pointer;"+(on?"background:var(--t);color:var(--f)":"");r.setAttribute("role","button");r.tabIndex=0;
+h("span","",on?"✓":"○",r).style.cssText="font-size:18px;width:20px;text-align:center";h("span","",sub,r).style.flex="1";
+if(on){var no=ordr(m,cur).indexOf(key)+1;h("span","",(no?"#"+no+" ":"")+(typeof on=="string"?fmt(on):""),r).style.fontSize="11px"}
+var f=function(){explain(D[cur],x.t,sub,m.tpl,key,m)};
+r.onclick=f;r.onkeydown=function(e){if(e.key=="Enter"||e.key==" "){e.preventDefault();f()}};hint(r,x.t,sub,m,key)})})}
+var TN=["","ブロンズ","シルバー","ゴールド"],TH=[42,48,55];
+function tier(n){return n>=TH[2]?3:n>=TH[1]?2:n>=TH[0]?1:0}
+function today(){var d=new Date();return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+function fmt(s){var a=s.split("-");return a.length==3?a[0].slice(2)+"/"+a[1]+"/"+a[2]:""}
+function lays(m){if(m.layers&&m.layers.length)return m.layers.slice().sort();var s={};Object.keys(m.checks||{}).forEach(function(k){s[k.split("-")[0]]=1});var a=Object.keys(s).map(Number).sort();return a.length?a:[0]}
+
+fillLy();
+[["","ひな形なし(標準)"],["組み込み","組み込み"],["基幹アプリ","基幹アプリ"],["WEBアプリ","WEBアプリ"]].forEach(function(t){[$("tp")].forEach(function(s){var o=h("option","",t[1],s);o.value=t[0]})});
+
+$("addl").onclick=function(){var m=me(),sv=$("ly2").value;if(!m||sv==="")return;var v=+sv;if(lays(m).indexOf(v)>=0)return;m.layers=lays(m).concat([v]).sort();var tm=tplMap(m.tpl,[v]);m.custom=m.custom||{};Object.keys(tm).forEach(function(k){if(!m.custom[k])m.custom[k]=tm[k]});cur=v;render();save(m)};
+function render(){
+var mb=$("mem");mb.textContent="";
+members.forEach(function(m){var b=h("button",m.id==sel?"on":"",m.name+"("+lays(m).map(function(l){return D[l].role}).join("・")+(m.tpl?"/"+m.tpl:"")+")",mb);b.onclick=function(){sel=m.id;armDel=false;edk=null;render()}});
+if(!members.length)h("span","m","メンバーを追加してください",mb);
+var tb=$("tabs");tb.textContent="";
+var mm=me();if(mm&&lays(mm).indexOf(cur)<0)cur=lays(mm)[0];
+D.forEach(function(l,i){if(!mm||lays(mm).indexOf(i)<0)return;var b=h("button",i==cur?"on":"",l.tab,tb);b.onclick=function(){cur=i;edk=null;render()}});
+if(mm){var lb=h("button","",listMode?"マンダラ表示に戻す":"一覧表示にする",tb);lb.style.marginLeft="auto";lb.onclick=function(){listMode=!listMode;render()}}
+var s2=$("ly2");s2.textContent="";if(mm)D.forEach(function(l,i){if(lays(mm).indexOf(i)<0){var o=h("option","",l.tab,s2);o.value=i}});$("addrow").style.display=mm&&s2.options.length?"":"none";
+var m=me(),g=$("g");g.textContent="";g.style.display="";
+$("del").style.display=m?"":"none";$("del").textContent=armDel?"もう一度押すと削除されます":"このメンバーを削除";
+if(m){
+var L=D[cur],it=L.items.map(function(s){var a=s.split("|");return{t:a[0],s:a[1].split("/")}});var cu=m.custom||{};it.forEach(function(x,i){if(cu[cur+"-"+i])x.t=cu[cur+"-"+i];x.s=x.s.map(function(v,s){return cu[cur+"-"+i+"-"+s]||v})});
+if(NR()){list(m,it,g)}else for(var b=0;b<9;b++){var blk=h("div","b","",g),q=P[b];
+for(var p=0;p<9;p++){
+if(b==4){
+if(p==4){var nn=lay(m,cur),tr=tier(nn),c=h("div","c t"+tr,"",blk);h("span","",L.role+(tr?"・"+TN[tr]:""),c);h("span","",L.price,c).style.cssText="font-size:18px;font-weight:500";h("span","",nn+" / 64",c);if(tr<3)h("span","","あと"+(TH[tr]-nn)+"マスで"+TN[tr+1],c)}
+else{var r=P[p],c=h("div","c a k"+r,"",blk);h("span","",it[r].t,c).style.fontWeight="500";h("span","",cnt(m,cur,r)+" / 8",c);hint(c,it[r].t,null,m,cur+"-"+r)}
+}else if(p==4){var c=h("div","c a k"+q,"",blk);h("span","",it[q].t,c).style.fontWeight="500";h("span","",cnt(m,cur,q)+" / 8",c);hint(c,it[q].t,null,m,cur+"-"+q)}
+else(function(q,s){var k=cur+"-"+q+"-"+s,on=(m.checks||{})[k];var c=h("div","c s k"+q+(on?" d":""),(on?"":"")+it[q].s[s],blk);if(on){var no=ordr(m,cur).indexOf(k)+1;h("span","",no?"#"+no:"✓",c).style.fontWeight="500";if(typeof on=="string"){h("span","",fmt(on),c);c.title=fmt(on)+"に達成"}}hint(c,it[q].t,it[q].s[s],m,k);c.tabIndex=0;c.setAttribute("role","button");
+var f=function(){explain(D[cur],it[q].t,it[q].s[s],m.tpl,k,m)};
+c.onclick=f;c.onkeydown=function(e){if(e.key=="Enter"||e.key==" "){e.preventDefault();f()}}})(q,P[p])}}
+$("tot").textContent=lay(m,cur)+" / 64 マス達成("+Math.round(lay(m,cur)/64*100)+"%)";
+
+}else $("tot").textContent="";
+var ov=$("ov");ov.textContent="";var hr=h("tr","","",ov);["メンバー","シート","進捗"].forEach(function(x){h("th","",x,hr)});
+members.forEach(function(x){lays(x).forEach(function(l,j){var r=h("tr","","",ov);h("td","",j?"":x.name,r);h("td","",D[l].role+"("+D[l].price+")",r);h("td","",lay(x,l)+" / 64("+Math.round(lay(x,l)/64*100)+"%)",r)})})}
+
+$("add").onclick=function(){var n=$("nm").value.trim();if(!n)return;if(!col){$("st").textContent="データ保存が使えません";return}
+if(members.some(function(x){return x.name==n})){$("st").textContent="同じ名前のメンバーがいます";return}
+var lv=+$("ly").value,tn=$("tp").value,o={id:"m"+Date.now(),name:n,checks:{},memos:{},order:[],layers:[lv],custom:tplMap(tn,[lv]),tpl:tn,created:Date.now()};members.push(o);sel=o.id;cur=lv;$("nm").value="";render();save(o)};
+$("del").onclick=function(){if(!armDel){armDel=true;render();return}var m=me();armDel=false;if(m)col.doc(m.id).delete()};
+(async function(){
+try{var db=await claude.use("db");if(!db){$("msg").textContent="データ保存が使えません。ページの所有者アカウントで開いてください。";return}
+col=db.collection("members");cfg=db.collection("config");cfg.onSnapshot(function(s){var t=null,tc=null;s.docs.forEach(function(d){if(d.id=="chart")t=d.data().text;if(d.id=="criteria")tc=d.data().text});var pc=tc?parseCr(tc):null;CR=pc&&pc.map?pc.map:{};var p=t?parseTxt(t):null;D=p&&p.D?p.D:DEF;fillLy();render()},function(){});
+col.onSnapshot(function(s){var seen={};members=[];s.docs.forEach(function(d){if(seen[d.id])return;seen[d.id]=1;var x=JSON.parse(JSON.stringify(d.data()||{}));x.id=d.id;members.push(pend[d.id]>0&&loc[d.id]?loc[d.id]:x)});Object.keys(pend).forEach(function(id){if(pend[id]>0&&!seen[id])members.push(loc[id])});members.sort(function(a,b){return(a.created||0)-(b.created||0)});if(!me())sel=members[0]?members[0].id:null;render()},function(e){$("msg").textContent="読み込みエラー: "+e.message})
+}catch(e){$("msg").textContent="データ保存が使えません。"}
+})();
+render();
+</script></body></html>
